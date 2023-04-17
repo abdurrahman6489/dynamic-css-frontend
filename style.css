@@ -1,0 +1,14 @@
+.text-here{
+    font-size : 55px;
+    font-style:normal;
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.italic{
+    font-style:italic;
+}
+.bold{
+    font-weight: bold;
+}

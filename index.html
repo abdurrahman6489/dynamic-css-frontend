@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic css Frontend</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <a href="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/126d91d229d24ce988e6c1a5c2523948.mp4" target="_blank">Sample Video</a>
+        <div class="text-here" id="text-container">This is some example Text</div>
+        <div>Change Text Color: </div>
+        <textarea id="colorbox" placeholder="Enter color code here"></textarea>
+        <button id="colorchange">Change Color</button>
+        <div >Change Font Size: </div>
+        <input type="range" id="fontsize" value="55" min="10" max="100"/>
+        <button id="underline">Underline</button>
+        <button id="italic">Italic</button>
+        <button id="bold">Bold</button>
+        <div>Change Font Family:</div>
+        <select id="list">
+            <option value="serif">serif</option>
+            <option value="sansSerif">sans-Serif</option>
+            <option value="monospace">monospace</option>
+            <option value="cursive">cursive</option>
+            <option value="fantasy">fantasy</option>
+        </select>
+        <button id="getstyle">Get CSS Properties</button>
+        <div id="css-props" class="hide"></div>
+    </div>
+</body>
+</html>
